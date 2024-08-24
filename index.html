@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <title>Whatsapp</title>
+   </head>
+   <body>
+      <div class="container">
+         <header>
+            <a href="#" class="logo">Whatsapp</a>
+            <div class="action">
+               <a href="#">
+                  <ion-icon name="camera-outline"></ion-icon>
+               </a>
+               <a href="#">
+                  <ion-icon name="search-outline"></ion-icon>
+               </a>
+               <a href="#">
+                  <ion-icon name="ellipsis-vertical"></ion-icon>
+               </a>
+            </div>
+         </header>
+         <div class="tabs">
+            <input id="chats" type="radio" name="group" checked> 
+            <input id="status" type="radio" name="group"> 
+            <input id="calls" type="radio" name="group"> 
+            <div class="buttons">
+               <label for="chats">Chats</label>
+               <label for="status">Status</label>
+               <label for="calls">Calls</label>
+               <div class="underline"></div>
+            </div>
+            <div class="quikBtn">
+               <div class="btn message">
+                  <ion-icon name="chatbubble"></ion-icon>
+               </div>
+               <div class="btn camera">
+                  <div class="pencil">
+                     <ion-icon name="pencil"></ion-icon>
+                  </div>
+                  <ion-icon name="camera"></ion-icon>
+               </div>
+               <div class="btn call">
+                  <ion-icon name="call"></ion-icon>
+               </div>
+            </div>
+            <div class="content">
+               <div class="box chats">
+                  <div class="data">
+                     <div class="chatlist">
+                        <div class="block unread open">
+                           <div class="imgbx">
+                              <img id="randomImage" src="" alt="p">
+                           </div>
+                           <div class="details">
+                              <div class="listHead">
+                                 <h4>Kiddo coder</h4>
+                                 <p class="time">10:20</p>
+                              </div>
+                              <div class="message_p">
+                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam, minima porro reiciendis totam ducimus tempore, corrupti alias harum commodi nisi laudantium optio eaque non ipsa repellat expedita quaerat accusantium?</p>
+                                 <b>4</b>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="block unread">
+                           <div class="imgbx">
+                              <img id="randomImage" src="" alt="p">
+                           </div>
+                           <div class="details">
+                              <div class="listHead">
+                                 <h4>Satura</h4>
+                                 <p class="time">yesterday</p>
+                              </div>
+                              <div class="message_p">
+                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam, minima porro reiciendis totam ducimus tempore, corrupti alias harum commodi nisi laudantium optio eaque non ipsa repellat expedita quaerat accusantium?</p>
+                                 <b>1</b>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="box status">
+                  <div class="data">
+                     <div class="chatlist">
+                        <div class="block">
+                           <div class="imgbx">
+                              <img id="randomImage" src="" alt="">
+                           </div>
+                           <div class="plus">+</div>
+                           <div class="details">
+                              <div class="listHead">
+                                 <h4>My Status</h4>
+                              </div>
+                              <div class="message_p">
+                                 <p>Tap to add status Update</p>
+                              </div>
+                           </div>
+                        </div>
+                        <label>Recent Updates</label>
+                        <div class="block unseen">
+                           <div class="imgbx">
+                              <img src="" alt="" id="randomImage">
+                           </div>
+                           <div class="details">
+                              <div class="listHead">
+                                 <h4>Blaise</h4>
+                              </div>
+                              <div class="message_p">
+                                 <p>Just Now</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="block unseen">
+                           <div class="imgbx">
+                              <img src="" alt="" id="randomImage">
+                           </div>
+                           <div class="details">
+                              <div class="listHead">
+                                 <h4>Liévin</h4>
+                              </div>
+                              <div class="message_p">
+                                 <p>2 hours ego</p>
+                              </div>
+                           </div>
+                        </div>
+                        <label>viewed Updates</label>
+                        <div class="block seen">
+                           <div class="imgbx">
+                              <img src="" alt="" id="randomImage">
+                           </div>
+                           <div class="details">
+                              <div class="listHead">
+                                 <h4>Frabert</h4>
+                              </div>
+                              <div class="message_p">
+                                 <p>yesterday , 20:10 AM</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="box calls">
+                  <div class="data">
+                     <div class="chatlist">
+                        <div class="block unread">
+                           <div class="imgbx green">
+                              <ion-icon name="link"></ion-icon>
+                           </div>
+                           <div class="details">
+                              <div class="listHead">
+                                 <h4>Create Call link</h4>
+                              </div>
+                              <div class="message_p">
+                                 <p>Share a link for your Whatsapp </p>
+                              </div>
+                           </div>
+                        </div>
+                        <label>Recent calls</label>
+                        <div class="block unseen">
+                           <div class="imgbx">
+                              <img src="" alt="" id="randomImage">
+                           </div>
+                           <div class="details">
+                              <div class="listHead">
+                                 <h4>Liévin</h4>
+                              </div>
+                              <div class="message_p incoming">
+                                 <p>
+                                    <ion-icon name="arrow-down"></ion-icon>
+                                    2 hours ego
+                                 </p>
+                              </div>
+                           </div>
+                           <ion-icon name="call" class="call"></ion-icon>
+                        </div>
+                        <div class="block unseen">
+                           <div class="imgbx">
+                              <img src="" alt="" id="randomImage">
+                           </div>
+                           <div class="details">
+                              <div class="listHead">
+                                 <h4>Divin</h4>
+                              </div>
+                              <div class="message_p outgoing">
+                                 <p>
+                                    <ion-icon name="arrow-up"></ion-icon>
+                                    yesterday, 10:11 AM
+                                 </p>
+                              </div>
+                           </div>
+                           <ion-icon name="call" class="call"></ion-icon>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="chatBox">
+            <div class="chat_header">
+               <div class="imgcontent">
+                  <ion-icon name="arrow-back-sharp" class="back"></ion-icon>
+                  <div class="imgBx">
+                     <img id="randomImage" src="" alt="">
+                  </div>
+                  <h3>Kiddo coder <br><span>Online</span></h3>
+               </div>
+               <div class="actionBtns">
+                  <ion-icon name="videocam"></ion-icon>
+                  <ion-icon name="call"></ion-icon>
+                  <ion-icon name="ellipsis-vertical"></ion-icon>
+               </div>
+            </div>
+            <div class="messageBox">
+               <div class="message">
+                  hello kiddo
+                  <br>
+                  <span class="time">12:55</span>
+               </div>
+            </div>
+            <div class="messageInput">
+               <div class="input">
+                  <ion-icon name="happy-outline"></ion-icon>
+                  <input type="text" placeholder="Message">
+                  <ion-icon name="attach-outline" class="deg45"></ion-icon>
+                  <ion-icon name="camera"></ion-icon>
+               </div>
+               <div class="mic">
+                  <ion-icon name="mic"></ion-icon>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+      <script>
+         document.addEventListener("DOMContentLoaded", function() {
+               var randomWidth = 45; // Largeur aléatoire
+               var randomHeight = 45; // Hauteur aléatoire
+               var images = document.querySelectorAll("#randomImage");
+               images.forEach(function(image) {
+                   var randomId = Math.floor(Math.random() * 1000); // Générer un ID aléatoire
+                   var imageUrl = "https://picsum.photos/id/" + randomId + "/" + randomWidth + "/" + randomHeight; // Créer l'URL de l'image aléatoire
+                   image.src = imageUrl; // Mettre à jour l'attribut src de l'image
+               });
+           });
+      </script>
+      <script>
+         let back = document.querySelector('.back')
+         let chatBox = document.querySelector('.chatBox')
+         let open = document.querySelector('.open') 
+         back.onclick = function(){
+               chatBox.classList.add('hide')
+               chatBox.classList.remove('show')
+         }
+         open.onclick = function(){
+               chatBox.classList.remove('hide')
+               chatBox.classList.add('show')
+         }
+      </script>
+   </body>
+</html>
